@@ -5,6 +5,7 @@ from os import getenv
 import pystray
 from PIL import Image
 from sys import exit
+from time import sleep
 
 def on_clicked(icon, item):
     if str(item) == "Exit":
@@ -41,7 +42,7 @@ def brightnessDown(delta: int=5):
 def monOff():
     for mon in mons:
         with mon as m:
-            m.set_power_mode(monitorcontrol.PowerMode.off_soft)
+            m.set_power_mode(monitorcontrol.PowerMode.off_hard)
 
 def monOn():
     for mon in mons:
