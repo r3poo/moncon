@@ -8,7 +8,7 @@ Available functions:
 - turn on display
 
 ## Setup
-1. Download and unzip latest release
+1. Download and unzip [latest release](https://github.com/r3poo/moncon/releases/latest)
 2. Edit `.env` file with prefered hotkeys
 
 ## Running
